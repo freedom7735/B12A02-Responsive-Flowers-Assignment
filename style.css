@@ -173,3 +173,140 @@ nav img {
   justify-content: center;
   gap: 60px;
 }
+.plants-list {
+  margin-top: 20px;
+}
+.plants-list h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.plants-list ul {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  color: #8987a1;
+}
+
+.plants-list ul li {
+  margin: 50px 0;
+}
+
+/* Latest Deals  */
+
+.latest-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.latest-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.latest-text p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #8987a1;
+}
+
+
+/* plant-image part  */
+
+.latest-all-imag{
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      margin: 30px 0;
+}
+
+.plant-right{
+    background-image: url(./assets/deal-zabo.png);
+    border: 1px solid #8987a1;
+    width: 753px;
+    height: 423.13px;
+    max-width: 30%;
+     background-size: cover;
+    color: #ffff; 
+}
+
+.plant-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  
+}
+
+.latest-all-imag a{
+  color: white;
+}
+
+
+.bloom-plant{
+  background-image: url(./assets/deal-bloom.png);
+  width: 366px;
+  height: 206px;
+  font size: 20px;
+  font width: 700;
+  color: #ffff;
+  border-radius: 10px;
+}
+
+.ana-plant{
+  background-image: url(./assets/deal-ana.png);
+  font size: 20px;
+  font width: 700;
+  width: 366px;
+  height: 206px;
+  color: #ffff;
+  border-radius: 10px;
+}
+
+/* Join the colorful Bunch  */
+
+.colorful-info{
+  text-align: center;
+
+}
+.colorful-info h2{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.colorful-info input{
+  width: 644px;
+  height: 50px;
+  padding: 8px 20px 8px 20px;
+}
+
+.colorful-info{
+   display: flex;
+   flex-direction: column;
+   padding-top: 150px;
+}
+
+.bunch-input-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.colorful-Bunch{
+  background-image: url(./assets/news-letter-bg.png);
+  width: 100%;
+  height: 533px;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+  
+}
