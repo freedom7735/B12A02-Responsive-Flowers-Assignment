@@ -165,8 +165,15 @@ nav img {
   border: none;
 }
 /* <!-- flowers & plants lover  --> */
-
+.badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    top: -124px;
+    left: 386px;
+}
 .plats-details {
+  position: relative;
   display: flex;
   margin: 0 auto;
   max-width: 1140px;
@@ -309,4 +316,52 @@ nav img {
   background-position: center;
   margin-top: 100px;
   
+}
+
+footer section  */
+
+.logo-shop{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-shop p{
+  font-size: 22px;
+  font-weight: 400; 
+}
+
+.footer-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-nav2{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  
+}
+
+.footer-nav .footer-nav2 li{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logos .icons{
+  display: flex;
+  gap: 30px;
+
+}
+
+.footer-part{
+  display: flex;
+  width: 1440px;
+  justify-content: center;
+  gap: 110px;
+  /* margin: 48px; */
+  margin: 30px auto;
+  color: #8987a1;
 }
