@@ -396,9 +396,7 @@ nav img {
       font-size: 1.14rem;
       margin: 5px 17px;
     }
-
-
-
+      
     /* card part  */
   .card-title p{
     font-size: 1rem;
@@ -434,9 +432,24 @@ nav img {
   }
 
 /* join the colorful bunch  */
-        .colorful-info h2{
+            .bunch-input-btn{
+              width: 100px;
+              height: 50px;
+            }
+
+          .colorful-info h2{
           font-size: 1.2rem ;
         }
 
-        
+
+  /* footer part  */
+      .footer-part{
+        flex-direction: column;
+        gap: 20px;
+        margin: 5px 0 30px 20px;
+        align-items: flex-start;
+      }
+
+
+
 }
