@@ -1,8 +1,3 @@
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}  */
 
 .noto-serif-nor {
   font-family: "Noto Serif", serif;
@@ -212,6 +207,8 @@ nav img {
   gap: 5px;
 }
 
+
+
 .latest-text h2 {
   font-size: 50px;
   font-weight: 700;
@@ -237,13 +234,17 @@ nav img {
 
 .plant-right{
     background-image: url(./assets/deal-zabo.png);
-    border: 1px solid #8987a1;
-    width: 753px;
+    width: 40%;
     height: 423.13px;
-    max-width: 30%;
-     background-size: cover;
-    color: #ffff; 
+    background-size: cover;
+    color: #ffff;
+    text-align: center;  
 }
+.plant-right h2 p{
+    
+}
+
+
 
 .plant-left {
   display: flex;
@@ -266,6 +267,7 @@ nav img {
   font width: 700;
   color: #ffff;
   border-radius: 10px;
+  text-align: center;
 }
 
 .ana-plant{
@@ -276,6 +278,7 @@ nav img {
   height: 206px;
   color: #ffff;
   border-radius: 10px;
+  text-align: center;
 }
 
 /* Join the colorful Bunch  */
@@ -318,7 +321,7 @@ nav img {
   
 }
 
-footer section  */
+/* footer section  */
 
 .logo-shop{
   display: flex;
@@ -361,7 +364,17 @@ footer section  */
   width: 1440px;
   justify-content: center;
   gap: 110px;
-  /* margin: 48px; */
   margin: 30px auto;
   color: #8987a1;
+}
+
+/* responsive media query  */
+
+.hide{
+  display: none;
+}
+
+@media screen (max-width:576px){
+          
+          
 }
