@@ -46,7 +46,7 @@
 /* navbar related style */
 
 .navbar {
-  justify-content: space-between;
+  justify-content:space-between;
   max-width: 1140px;
   align-items: center;
   margin: 0 auto;
@@ -54,9 +54,18 @@
 nav img {
   margin-top: 10px;
 }
+.only-for-cart{
+  margin-top: 35px;
+
+}
+
+.nav-menu-cart{
+  gap: 10px;
+}
+
 .nav-item {
   list-style: none;
-  margin-right: 48px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
@@ -361,7 +370,7 @@ nav img {
 
 .footer-part{
   display: flex;
-  width: 1440px;
+  width: 1140px;
   justify-content: center;
   gap: 110px;
   margin: 30px auto;
@@ -383,6 +392,10 @@ nav img {
     gap: 13;
     order: 1;
 
+  }
+
+  .nav-links{
+    display: none;
   }
 
     .banner-container h2{
@@ -449,7 +462,4 @@ nav img {
         margin: 5px 0 30px 20px;
         align-items: flex-start;
       }
-
-
-
 }
