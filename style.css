@@ -377,19 +377,38 @@ nav img {
 @media screen and (max-width: 576px) {
   .banner-container{
     flex-direction: column-reverse;
-    text-align: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: flex-start;
+    gap: 13;
+    order: 1;
+
   }
 
-  .card-title h1{
-    font-size: 1.8rem;
-  }
+    .banner-container h2{
+      font-size: 1.5rem;
+      margin: 2px 17px;
+      
+      
+    }
+
+    .banner-container p{
+      font-size: 1.14rem;
+      margin: 5px 17px;
+    }
+
+
+
+    /* card part  */
   .card-title p{
     font-size: 1rem;
   }
   .cards{
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    margin: 0 10px;
+    margin: 0 17px;
+
+    /* latest part  */
 
   }
   .badge{
@@ -413,4 +432,11 @@ nav img {
       width: 361px;
       height: 177px;
   }
+
+/* join the colorful bunch  */
+        .colorful-info h2{
+          font-size: 1.2rem ;
+        }
+
+        
 }
