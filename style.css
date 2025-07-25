@@ -374,7 +374,43 @@ nav img {
   display: none;
 }
 
-@media screen (max-width:576px){
-          
-          
+@media screen and (max-width: 576px) {
+  .banner-container{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .card-title h1{
+    font-size: 1.8rem;
+  }
+  .card-title p{
+    font-size: 1rem;
+  }
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 0 10px;
+
+  }
+  .badge{
+    display: none;
+  }
+
+  .plats-details{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .latest-all-imag{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .plant-right{
+      width: 361px;
+      height: 177px;
+  }
 }
